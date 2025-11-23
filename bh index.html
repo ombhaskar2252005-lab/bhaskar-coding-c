@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>css style</title>
+        <style>
+            @keyframes moveBox {
+                0% { transform: translateX(0);background:red;}
+                50% { transform: translateX(200px);background:blue;}
+                100% { transform: translateX(0);background:red;}
+            }
+            .box {
+                width: 100px;
+                height: 100px;
+                background: red;
+                animation-name: moveBox;
+                animation: moveBox 4s;
+                animation-iteration-count: infinite;
+            }
+            </style>
+            </head>
+            <body>
+                <h2>css animation example</h2>
+                <div class="box"></div>
+            </body>
+            </html>
