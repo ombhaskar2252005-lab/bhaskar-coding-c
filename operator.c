@@ -8,5 +8,5 @@ int main() {
     b = j/ i * i;
     printf("%d %d %f %f" , k, l, a, b);
     return 0;
-    
+
 }
