@@ -8,12 +8,12 @@ int main(){
     scanf("%d", &sp);
     if(sp>cp)
     {
-        printf("profit");
+        printf("Profit");
     }
     else{
         printf("loss");
     }
     return 0;
-    
-  
+
+
 }
