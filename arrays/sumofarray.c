@@ -1,8 +1,13 @@
 #include <stdio.h>
 int main() {
-    int arr[5]={1,2,3,4,5};
-    int sum = 0;
-    for (int i = 0; i<=4; i++){
+    int n, sum=0;
+    printf("enter number of elements:");
+    scanf("%d", &n);
+    int arr[n];
+    for(int i = 0; i<n; i++){
+        scanf("%d", &arr[i]);
+        }
+    for(int i = 0; i<n; i++){
         sum = sum + arr[i];
     }
     printf("sum is %d", sum);
